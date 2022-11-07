@@ -27,7 +27,7 @@ import { useCollectionData } from "react-firebase-hooks/firestore";
 const auth = firebase.auth();
 
 export default function Home() {
-  const [user] = useAuthState(auth);
+  const [user] = useAuthState(auth as any);
 
   return (
     <div className={styles.container}>

@@ -27,7 +27,7 @@ import { useCollectionData } from "react-firebase-hooks/firestore";
 const auth = firebase.auth();
 
 export default function Home() {
-  const [user] = useAuthState(auth as any);
+  const [user] = useAuthState(auth);
 
   return (
     <div className={styles.container}>
@@ -91,7 +91,7 @@ function SignIn() {
 }
 
 function SignOut() {
-  function classNames(...classes: any) {
+  function classNames(...classes) {
     return classes.filter(Boolean).join(" ");
   }
 

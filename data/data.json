@@ -2,26 +2,41 @@
     {
       "id": 1,
       "name": "Calculus Textbook", 
-      "cost": 3
+      "cost": 3,
+      "lender": "Bian Lee",
+      "rating": 5,
+      "duration": 1
     },
     {
       "id": 2,
       "name": "Football", 
-      "cost": 3
+      "cost": 3,
+      "lender": "Donald Trump",
+      "rating": 4,
+      "duration": 2
     },
     {
       "id": 3,
       "name": "Calculator", 
-      "cost": 4
+      "cost": 4,
+      "lender": "Ron Desantis",
+      "rating": 4,
+      "duration": 1
     },
     {
       "id": 4,
       "name": "Pots", 
-      "cost": 5.5
+      "cost": 5.5,
+      "lender": "Elon Musk",
+      "rating": 4.5,
+      "duration": 4
     },
     {
       "id": 5,
       "name": "Lab Coat", 
-      "cost": 12
+      "cost": 12,
+      "lender": "Sergio Kitchens",
+      "rating": 3.5,
+      "duration": 7
     }
   ]

@@ -7,7 +7,7 @@ export default class Hero extends React.Component{
     constructor() {
         super();
         this.state = {
-
+            selectedID: " "
         } 
         this.handleClick = this.handleClick.bind(this);
 

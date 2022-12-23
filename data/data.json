@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "name": "Calculus Textbook", 
+      "cost": 3
+    },
+    {
+      "id": 2,
+      "name": "Football", 
+      "cost": 3
+    },
+    {
+      "id": 3,
+      "name": "Calculator", 
+      "cost": 4
+    },
+    {
+      "id": 4,
+      "name": "Pots", 
+      "cost": 5.5
+    },
+    {
+      "id": 5,
+      "name": "Lab Coat", 
+      "cost": 12
+    }
+  ]
